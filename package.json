@@ -1,0 +1,29 @@
+{
+  "name": "minecraft-clone-server",
+  "version": "1.0.0",
+  "description": "Complete WebSocket multiplayer server for Minecraft Clone with shared world seeds",
+  "main": "minecraft-server.js",
+  "scripts": {
+    "start": "node minecraft-server.js",
+    "dev": "nodemon minecraft-server.js"
+  },
+  "keywords": [
+    "minecraft",
+    "websocket",
+    "multiplayer",
+    "game-server",
+    "nodejs",
+    "realtime"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
